@@ -4,3 +4,10 @@
 
 user => Payment Process => Bank Check Amount
 => Money Added in Nodel Bank
+
+
+Payments Gateways
+
+{ PayPal - PayMob - Stripe }
+
+Types => 1- Hosted Payment Gateway  2- Card
