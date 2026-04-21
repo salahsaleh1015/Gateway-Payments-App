@@ -54,6 +54,15 @@ class MyCartViewBody extends StatelessWidget {
             text: 'Complete Payment',
             onTap: () {
               Navigator.push(context, MaterialPageRoute(builder: (context){return PaymentDetailsView();}));
+
+              // showModalBottomSheet(
+              //     context: context,
+              //     shape: RoundedRectangleBorder(
+              //         borderRadius: BorderRadius.circular(16)),
+              //     builder: (context) {
+              //       return const PaymentMethodsBottomSheet();
+              //     });
+
             },
           ),
           const SizedBox(
