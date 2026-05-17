@@ -12,7 +12,7 @@ class StripeService {
     var response = await apiService.post(
       body: paymentIntentInput.toJson(),
       url: 'https://api.stripe.com/v1/payment_intents/',
-      token: '',
+      token: 'YOUR_STRIPE_SECRET',
     );
     var paymentIntentModel = PaymentIntentModel.fromJson(response.data);
     return paymentIntentModel;
